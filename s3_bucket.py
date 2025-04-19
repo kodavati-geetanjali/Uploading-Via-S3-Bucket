@@ -6,7 +6,7 @@ from botocore.exceptions import NoCredentialsError
 BUCKET_NAME = "my-streamlit-s3-demo-bucket-1234"
 REGION = "ap-south-1"
 SNS_TOPIC_NAME = "S3UploadAlert"
-EMAIL_TO_SUBSCRIBE = "kodavatigeetanjali@gmail.com"
+EMAIL_TO_SUBSCRIBE = ""
 
 # == AWS CLIENT ==
 s3 = boto3.client("s3", region_name=REGION)
